@@ -38,6 +38,12 @@
     self.wallet -= self.bet;
 }
 
+- (void) doubleBet
+{
+    self.wallet -= self.bet;
+    self.bet +=self.bet;
+}
+
 // Cette méthode est utilisé si le joueur gagne la partie
 - (void) winBet
 {

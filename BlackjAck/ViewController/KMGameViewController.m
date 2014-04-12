@@ -71,14 +71,6 @@
     // [self.dealerSpace setBounds:CGRectMake(self.dealerSpace.bounds.origin.x, self.dealerSpace.bounds.origin.y, 220, 150)];
 }
 
-
-- (IBAction)changeBetValue:(id)sender {
-    
-    self.game.player.bet = self.sliderBet.value;
-    self.labelBet.text = [NSString stringWithFormat:@"%i", self.game.player.bet];
-    //self.wallet.text = [NSString stringWithFormat:@"%i", (self.game.player.wallet - self.game.player.bet)];
-}
-
 - (IBAction)deal:(id)sender {
     if (self.game.gameOver == NO) {
         
@@ -196,6 +188,8 @@
         
         [self.game doubleDown];
         
+        self.wallet.text = [NSString stringWithFormat:@"%i",self.game.player.wallet];
+        self.labelBet.text = [NSString stringWithFormat:@"%i", self.game.player.bet];
         
         [self updateWithPlayer:self.game.player withSpace:self.playerSpace];
         
@@ -278,6 +272,14 @@
     [self.buttonStand setHidden:NO];
     [self.sliderBet setHidden:YES];
     [self.buttonDeal setHidden:YES];
+}
+
+
+- (IBAction)changeBetValue:(id)sender {
+    
+    self.game.player.bet = self.sliderBet.value;
+    self.labelBet.text = [NSString stringWithFormat:@"%i", self.game.player.bet];
+    //self.wallet.text = [NSString stringWithFormat:@"%i", (self.game.player.wallet - self.game.player.bet)];
 }
 
 // gestion des choix de l'alerteview

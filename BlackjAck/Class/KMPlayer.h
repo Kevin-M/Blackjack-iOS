@@ -31,4 +31,7 @@
 // Si il y a une égalité
 - (void) drawBet;
 
+// Cette méthode permet au joueur de doubler sa mise
+- (void) doubleBet;
+
 @end

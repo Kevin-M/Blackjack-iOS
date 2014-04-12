@@ -108,6 +108,7 @@
     
     if (self.self.newTurn == YES)
     {
+        [self.player doubleBet];
         [self.dealer distributionAt:self.player withFace:YES];
         NSLog(@"La valeur de votre lot : %i", [self.player cardTotalValues]);
         
