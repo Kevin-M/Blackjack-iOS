@@ -6,20 +6,25 @@
 //  Copyright (c) 2014 MOUNDANGUI Kévin. All rights reserved.
 //
 
+
+/*
+ Cette classe gère le jeu en lui même
+ 
+ */
 #import <Foundation/Foundation.h>
 #import "KMPlayer.h"
 #import "KMDealer.h"
 
 @interface KMGame : NSObject
-{
-    BOOL newTurn;
 
-}
 
 @property (readwrite, strong, nonatomic) KMDealer * dealer;
 @property (readwrite, strong, nonatomic) KMPlayer * player;
+@property (readwrite, assign) BOOL newTurn;
+@property (readwrite, assign) BOOL gameOver;
+@property (readwrite, strong, nonatomic) NSString * resultat;
 
-- (void) newTurn;
+- (void) newGame;
 - (void) endTurn;
 
 - (void) hit;

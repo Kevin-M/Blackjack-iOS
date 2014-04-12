@@ -10,10 +10,14 @@
 
 @implementation KMShoe
 
+
+// Cette fonction permet de créer la sabot de cartes.
 - (void) shoe
 {
     
     self.index = 0;
+    
+    // on crée un tableau de famille de carte
     NSArray * arraySuit = [NSArray arrayWithObjects:@"Hearts",
                            @"Diamonds",
                            @"Clubs",
@@ -36,6 +40,8 @@
      nil];
      */
     self.arrayCards = [[NSMutableArray alloc]init];
+    
+    // On crée un sabot de carte avec 6 paquets(deck) de cartes.
     
     for (int deck = 0; deck < 6; deck++) {
         for (int rang = 1; rang <= 13; rang++) {
@@ -79,19 +85,22 @@
     }
 }
 
-
+// Cette fonction permet de prendre un carte dans le sabot
 - (KMCard*) takeCard
 {
     if(self.index+1==208)
     {
         [self shuffle];
     }
+    
     KMCard* card = self.arrayCards[self.index];
-    NSLog(@"La carte est :%@, %i, famille :%@, valeur %i ",card.name,card.rang,card.suit ,card.value);
+    NSLog(@"La carte est : %@",card.name);
     self.index ++;
     return card;
 }
 
+
+// Cette fonction permet de mélanger les cartes.
 - (void) shuffle
 {
     // mélanger les cartes

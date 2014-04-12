@@ -11,11 +11,13 @@
 
 @interface KMDealer : KMPerson
 
+// le croupier gère le sabot
 @property(readwrite,strong,nonatomic) KMShoe * shoe;
-@property (readwrite,assign) BOOL isSurrended;
+@property (readwrite, assign) int cardvalue;
 
+// le croupier distribue les carte
 - (void) distributionAt:(KMPerson *)person withFace:(BOOL) face;
-
+- (int) firstCardValue;
 - (void) startTurn;
 
 @end

@@ -28,6 +28,8 @@
 		4D3CF17B18E8DA3300D815A3 /* KMGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3CF17A18E8DA3300D815A3 /* KMGameViewController.m */; };
 		4D3CF17E18E8DA5A00D815A3 /* KMCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3CF17D18E8DA5A00D815A3 /* KMCard.m */; };
 		4D3CF18118E8DA8900D815A3 /* KMShoe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3CF18018E8DA8900D815A3 /* KMShoe.m */; };
+		4D4411EE18E9C59900FF8C41 /* 9Hearts.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4411F018E9C59900FF8C41 /* 9Hearts.png */; };
+		4D4411F218E9F7E700FF8C41 /* cardBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4411F118E9F7E700FF8C41 /* cardBack.png */; };
 		4D8A52F118E8FAEF00CA8942 /* KMPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8A52F018E8FAEF00CA8942 /* KMPerson.m */; };
 		4D8A52F418E8FBAF00CA8942 /* KMPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8A52F318E8FBAF00CA8942 /* KMPlayer.m */; };
 		4D8A52F718E8FBC800CA8942 /* KMDealer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8A52F618E8FBC800CA8942 /* KMDealer.m */; };
@@ -82,7 +84,6 @@
 		4D8A535F18E9999200CA8942 /* 8Spades.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D8A532B18E9999200CA8942 /* 8Spades.png */; };
 		4D8A536018E9999200CA8942 /* 9Clubs.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D8A532C18E9999200CA8942 /* 9Clubs.png */; };
 		4D8A536118E9999200CA8942 /* 9diamonds.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D8A532D18E9999200CA8942 /* 9diamonds.png */; };
-		4D8A536218E9999200CA8942 /* 9Hearts.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D8A532E18E9999200CA8942 /* 9Hearts.png */; };
 		4D8A536318E9999200CA8942 /* 9Spades.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D8A532F18E9999200CA8942 /* 9Spades.png */; };
 		4D8A536518E99B3300CA8942 /* cardBack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4D8A536418E99B3300CA8942 /* cardBack.jpg */; };
 /* End PBXBuildFile section */
@@ -127,6 +128,8 @@
 		4D3CF17D18E8DA5A00D815A3 /* KMCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KMCard.m; path = Class/KMCard.m; sourceTree = "<group>"; };
 		4D3CF17F18E8DA8900D815A3 /* KMShoe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KMShoe.h; path = Class/KMShoe.h; sourceTree = "<group>"; };
 		4D3CF18018E8DA8900D815A3 /* KMShoe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KMShoe.m; path = Class/KMShoe.m; sourceTree = "<group>"; };
+		4D4411EF18E9C59900FF8C41 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/9Hearts.png; sourceTree = "<group>"; };
+		4D4411F118E9F7E700FF8C41 /* cardBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardBack.png; sourceTree = "<group>"; };
 		4D8A52EF18E8FAEF00CA8942 /* KMPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KMPerson.h; path = Class/KMPerson.h; sourceTree = "<group>"; };
 		4D8A52F018E8FAEF00CA8942 /* KMPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KMPerson.m; path = Class/KMPerson.m; sourceTree = "<group>"; };
 		4D8A52F218E8FBAF00CA8942 /* KMPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KMPlayer.h; path = Class/KMPlayer.h; sourceTree = "<group>"; };
@@ -185,7 +188,6 @@
 		4D8A532B18E9999200CA8942 /* 8Spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8Spades.png; sourceTree = "<group>"; };
 		4D8A532C18E9999200CA8942 /* 9Clubs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9Clubs.png; sourceTree = "<group>"; };
 		4D8A532D18E9999200CA8942 /* 9diamonds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9diamonds.png; sourceTree = "<group>"; };
-		4D8A532E18E9999200CA8942 /* 9Hearts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9Hearts.png; sourceTree = "<group>"; };
 		4D8A532F18E9999200CA8942 /* 9Spades.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9Spades.png; sourceTree = "<group>"; };
 		4D8A536418E99B3300CA8942 /* cardBack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cardBack.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -344,6 +346,7 @@
 			isa = PBXGroup;
 			children = (
 				4D8A536418E99B3300CA8942 /* cardBack.jpg */,
+				4D4411F118E9F7E700FF8C41 /* cardBack.png */,
 				4D8A52FC18E9999200CA8942 /* 10Clubs.png */,
 				4D8A52FD18E9999200CA8942 /* 10Diamonds.png */,
 				4D8A52FE18E9999200CA8942 /* 10Hearts.png */,
@@ -394,7 +397,7 @@
 				4D8A532B18E9999200CA8942 /* 8Spades.png */,
 				4D8A532C18E9999200CA8942 /* 9Clubs.png */,
 				4D8A532D18E9999200CA8942 /* 9diamonds.png */,
-				4D8A532E18E9999200CA8942 /* 9Hearts.png */,
+				4D4411F018E9C59900FF8C41 /* 9Hearts.png */,
 				4D8A532F18E9999200CA8942 /* 9Spades.png */,
 			);
 			path = images;
@@ -498,12 +501,13 @@
 				4D8A534F18E9999200CA8942 /* 4Spades.png in Resources */,
 				4D8A535818E9999200CA8942 /* 7Clubs.png in Resources */,
 				4D8A535118E9999200CA8942 /* 5Diamonds.png in Resources */,
+				4D4411F218E9F7E700FF8C41 /* cardBack.png in Resources */,
 				4D14DB4B18E75920006A6611 /* InfoPlist.strings in Resources */,
 				4D8A535E18E9999200CA8942 /* 8Hearts.png in Resources */,
 				4D8A534618E9999200CA8942 /* 2Hearts.png in Resources */,
 				4D8A533B18E9999200CA8942 /* 12Spades.png in Resources */,
 				4D8A535218E9999200CA8942 /* 5Hearts.png in Resources */,
-				4D8A536218E9999200CA8942 /* 9Hearts.png in Resources */,
+				4D4411EE18E9C59900FF8C41 /* 9Hearts.png in Resources */,
 				4D8A534718E9999200CA8942 /* 2Spades.png in Resources */,
 				4D8A534218E9999200CA8942 /* 1Hearts.png in Resources */,
 				4D8A534E18E9999200CA8942 /* 4Hearts.png in Resources */,
@@ -598,6 +602,14 @@
 				4D14DB6718E75920006A6611 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4D4411F018E9C59900FF8C41 /* 9Hearts.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D4411EF18E9C59900FF8C41 /* en */,
+			);
+			name = 9Hearts.png;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

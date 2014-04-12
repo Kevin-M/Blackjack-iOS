@@ -6,6 +6,13 @@
 //  Copyright (c) 2014 MOUNDANGUI Kévin. All rights reserved.
 //
 
+/*
+ Cette classe représente le sabot du jeu.
+ Il contient un tableau de carte.
+ 
+ 
+ */
+
 #import <Foundation/Foundation.h>
 #import "KMCard.h"
 

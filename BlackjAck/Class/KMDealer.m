@@ -22,6 +22,18 @@
     return self;
 }
 
+// return la valeur de la première carte du croupier
+- (int) firstCardValue
+{
+    if (self.cards) {
+        
+        KMCard * c =  self.cards[0];
+        return  c.value;
+    }
+    
+    return 0;
+}
+
 - (void) distributionAt:(KMPerson *)person withFace:(BOOL) face
 {
     if(person)
@@ -32,7 +44,7 @@
     }
 }
 
-
+// Cette fonction gère les actions du croupier lors de son tour de jeu
 - (void) startTurn
 {
     // si la distribution est terminer
@@ -44,6 +56,7 @@
     {
         while ([self cardTotalValues]<17) {
             [self distributionAt:self withFace:YES];
+            [self checkAs];
         }
     }
     if([self cardTotalValues] > 21)
@@ -51,7 +64,6 @@
         self.isSurrended = YES;
         return;
     }
-
 }
 
 

@@ -10,4 +10,25 @@
 
 @interface KMPlayer : KMPerson
 
+@property (readwrite, assign) BOOL blackjack;
+@property (readwrite, assign) BOOL loseGame;
+@property (readwrite, assign) int wallet;
+@property (readwrite, assign) int bet;
+
+// Cette méthode permettra de vérifier les deux premières cartes du joueur
+- (void) checkCards;
+
+// méthode concernant la mise
+// Cette méthode permet au joueur de miser une somme
+- (void) startBet;
+
+// Si le joueur gagne la partie
+- (void) winBet;
+
+// Si le joueur perd la partie
+- (void) loseBet;
+
+// Si il y a une égalité
+- (void) drawBet;
+
 @end

@@ -10,4 +10,10 @@
 
 @interface KMCardView : UIView
 
+@property (readwrite, strong, nonatomic) UIImageView * imageView;
+
+
+- (id)initWithName: (NSString*) name;
+- (void) removeCardView;
+
 @end
